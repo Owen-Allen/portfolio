@@ -25,8 +25,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <Head> */}
-        {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/> */}
+      {/* <Head> */}  
+      <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
+      </head>
       {/* </Head> */}
       <body className={`${GeistSans.className} flex min-h-screen flex-col items-center bg-purple-100`}>
         <ChakraProvider>
