@@ -8,14 +8,9 @@ import Link from 'next/link'
 
 import Icon from '@/components/icon'
 
-
-
 export default function Projects() {
     return (
         <div className="w-full lg:w-3/4 flex flex-col justify-center space-y-8 p-x-8">
-
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" /> {/* THIS IS JANK */}
-
             <Card
                 className="bg-white m-2 shadow-md"
                 direction={{ xs: 'column', lg: 'row' }}
@@ -33,7 +28,7 @@ export default function Projects() {
                     </div>
                     {/* BODY */}
                     <Text className="mt-4">
-                        Clucker is a text-based social media app where people can share short messages, called clucks, with the world. User`&apos`s can create a custom profile, follow their friends, share their ideas and like other clucks.
+                        Clucker is a text-based social media app where people can share short messages, called clucks, with the world. User&apos;s can create a custom profile, follow their friends, share their ideas and like other clucks.
                     </Text>
                     {/* FOOTER */}
                     <div className="-mb-4 pt-8 mt-auto space-x-4 flex flex-row w-full justify-center sm:justify-end items-center">
@@ -134,7 +129,7 @@ export default function Projects() {
                     <div className="-mb-2 pt-8 mt-auto space-x-4 flex flex-row w-full justify-center sm:justify-end items-center">
                         <Icon href="https://www.typescriptlang.org/" className="devicon-typescript-plain colored text-4xl" text="TypeScript" />
                         <Icon href="https://nextjs.org/" className="devicon-nextjs-original colored text-4xl" text="Next.JS" />
-                        <Icon href="https://www.postgresql.org/" className="devicon-postgresql-plain colored text-4xl" text="Next.JS" />
+                        <Icon href="https://www.postgresql.org/" className="devicon-postgresql-plain colored text-4xl" text="PostgreSQL" />
                         <Icon href="https://tailwindcss.com/" className="devicon-tailwindcss-plain colored text-4xl" text="Tailwind" />
                     </div>
                 </CardBody>
