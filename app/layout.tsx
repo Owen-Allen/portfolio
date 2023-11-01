@@ -7,7 +7,10 @@ import Header from '@/components/header'
 import { GeistSans, GeistMono } from 'geist/font'
 import { ChakraProvider } from '@chakra-ui/react'
 
-import Favicon from '/public/favicon.ico';
+import Favicon from '/public/square-glasses.png';
+
+import Head from 'next/head'
+
 
 export const metadata: Metadata = {
   title: "Owen's Portfolio",
@@ -22,6 +25,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* <Head> */}
+        {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/> */}
+      {/* </Head> */}
       <body className={`${GeistSans.className} flex min-h-screen flex-col items-center bg-purple-100`}>
         <ChakraProvider>
           <Header />
