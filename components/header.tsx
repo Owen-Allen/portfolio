@@ -16,7 +16,7 @@ const links = [
 export default function Header() {
     const path = usePathname()
     return (
-        <div className="pt-24 p-4 sm:px-24 mb-4 ">
+        <div className="pt-24 p-8 sm:px-32 mb-4 ">
 
             {/* left side is "Hi ... (about)", right side is Image */}
             <div className="flex flex-row justify-center">
@@ -24,27 +24,27 @@ export default function Header() {
                 <div className="space-y-8 h-96 w-full flex flex-col justify-center">
                     <div className="">
                         <div className="flex flex-row">
-                            <h1 className="text-7xl font-bold block mt-auto md:mt-0">Hi!</h1>
+                            <h1 className="lg:text-8xl text-7xl font-bold block mt-auto lg:mt-32">Hi!</h1>
                             <Image // MOBILE IMAGE
-                                className="ml-auto mr-12 rounded-full md:hidden"
+                                className="ml-auto mr-4 lg:hidden rounded-full"
                                 src='/me.PNG'
-                                width={160}
-                                height={160}
+                                width={200}
+                                height={200}
                                 alt="Drawing of me!"
                             />
                         </div>
-                        <h1 className=" text-7xl font-bold block">I&apos;m Owen</h1>
+                        <h1 className="sm:w-[432px] lg:text-8xl text-7xl break-keep font-bold">I&apos;m Owen</h1>
                     </div>
-                    <p className='max-w-xs sm:max-w-6xl sm:w-3/4'>
+                    <p className='lg:w-2/3 lg:pb-0 pb-4 sm:text-lg '>
                         I&apos;m a <b>Software Developer</b>, experienced in Web Development and Cloud computing. I&apos;m interested in building you a solution, and providing the infrastructure to host and maintain it.
                     </p>
                 </div>
                 <div className="sm:block">
                     <Image
-                        className="rounded-full hidden md:block"
+                        className="rounded-full hidden lg:block"
                         src='/me.PNG'
-                        width={600}
-                        height={600}
+                        width={650}
+                        height={650}
                         alt="Drawing of me!"
                     />
                 </div>
