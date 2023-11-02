@@ -153,7 +153,7 @@ export default function Projects() {
                     </div>
                     {/* BODY */}
                     <Text className="mt-4">
-                        Photo-notes is a script I developed to make it easier to add images to my Markdown notes while in lecture. When a user takes a screenshot, the script generates a MarkDown insertion link that they can add to their notes.
+                        Photo-notes is a script I developed to make it easier to add images to my Markdown notes while in lecture. When a user takes a screenshot, the script generates a Markdown insertion link that they can add to their notes.
                     </Text>
                     {/* FOOTER */}
                     <div className="-mb-2 pt-8 mt-auto space-x-4 flex flex-row w-full justify-center sm:justify-end items-center">
