@@ -3,14 +3,9 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 
 import Header from '@/components/header'
-
 import { GeistSans, GeistMono } from 'geist/font'
 import { ChakraProvider } from '@chakra-ui/react'
-
 import Favicon from '/public/square-glasses.png';
-
-import Head from 'next/head'
-
 
 export const metadata: Metadata = {
   title: "Owen's Portfolio",
@@ -30,7 +25,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
       </head>
       {/* </Head> */}
-      <body className={`${GeistSans.className} flex min-h-screen flex-col items-center bg-purple-100`}>
+      <body className={`${GeistSans.className} flex flex-col justify-center bg-purple-100`}>
         <ChakraProvider>
           <Header />
           {children}

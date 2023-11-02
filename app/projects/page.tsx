@@ -10,13 +10,13 @@ import Icon from '@/components/icon'
 
 export default function Projects() {
     return (
-        <div className="w-full lg:w-3/4 flex flex-col justify-center space-y-8 p-x-8">
+        <div className="w-full flex flex-col justify-center items-center space-y-8 p-x-8 p-2">
             <Card
-                className="bg-white m-2 shadow-md"
+                className="bg-white m-2 shadow-md w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
-                <Image width={250} height={250} src='/clucker2.png' alt='Clucker Logo' className='p-8 hidden md:block' />
+                <Image width={250} height={250} src='/clucker2.png' alt='Clucker Logo' className='p-8 mb-auto hidden md:block' />
                 <CardBody className="flex flex-col">
                     {/* TITLE */}
                     <div className="flex flex-row items-center">
@@ -37,7 +37,7 @@ export default function Projects() {
                         <Icon href="https://www.djangoproject.com/" className="devicon-django-plain colored text-4xl" text="Django" />
                         <Icon href="https://tailwindcss.com/" className="devicon-tailwindcss-plain colored text-4xl" text="Tailwind" />
                         <Link href="https://aws.amazon.com/elasticbeanstalk/" className="mt-2 flex flex-col justify-center items-center">
-                            <svg height="36" width="36" viewBox="0 0 63.75 85" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+                            <svg height="36" width="36" viewBox="0 0 63.75 85" fill="#fff" fillRule="evenodd" stroke="#000" strokeLinecap="round" strokeLinejoin="round">
                                 <use href="#A" x="1.875" y="2.5" />
                                 <symbol id="A" overflow="visible">
                                     <g stroke="none">
@@ -63,11 +63,11 @@ export default function Projects() {
             </Card>
 
             <Card
-                className="bg-white m-2 shadow-md"
+                className="bg-white m-2 shadow-md w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
-                <Image width={250} height={250} src='/opencv.png' alt='OpenCV Logo' className='p-4 hidden md:block'
+                <Image width={250} height={250} src='/opencv.png' alt='OpenCV Logo' className='p-4 mb-auto hidden md:block'
                 />
 
                 <CardBody className="flex flex-col p-4">
@@ -86,13 +86,13 @@ export default function Projects() {
                     {/* FOOTER */}
                     <div className="-mb-2 pt-8 mt-auto space-x-4 flex flex-row w-full justify-center sm:justify-end items-center">
                         <Link href="https://www.python.org/" className="flex flex-col justify-center items-center">
-                            <svg height="36" width="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#5A9FD4" /><stop offset="1" stop-color="#306998" /></linearGradient><linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#FFD43B" /><stop offset="1" stop-color="#FFE873" /></linearGradient><path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)" /><path fill="url(#python-original-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)" /><radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#B8B8B8" stop-opacity=".498" /><stop offset="1" stop-color="#7F7F7F" stop-opacity="0" /></radialGradient><path opacity=".444" fill="url(#python-original-c)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z" /></svg>
+                            <svg height="36" width="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stopColor="#5A9FD4" /><stop offset="1" stopColor="#306998" /></linearGradient><linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stopColor="#FFD43B" /><stop offset="1" stopColor="#FFE873" /></linearGradient><path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)" /><path fill="url(#python-original-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)" /><radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#B8B8B8" stopOpacity=".498" /><stop offset="1" stopColor="#7F7F7F" stopOpacity="0" /></radialGradient><path opacity=".444" fill="url(#python-original-c)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z" /></svg>
                             <p className='pt-1 text-xs font-semi'>Python</p>
                         </Link>
                         <Icon href="https://opencv.org/" className="devicon-opencv-plain colored text-4xl" text="OpenCV" />
                         <Icon href="https://flask.palletsprojects.com/en/3.0.x/" className="devicon-flask-original colored text-4xl " text="Flask" />
                         <Link href="https://aws.amazon.com/pm/lambda/" className="flex flex-col justify-center items-center">
-                            <svg height="36" width="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><linearGradient id="a" x1="0%" y1="100%" y2="0%"><stop offset="0" stop-color="#c8511b" /><stop offset="1" stop-color="#f90" /></linearGradient><g fill="none" fill-rule="evenodd"><path d="M0 0h80v80H0z" fill="url(#a)" /><path d="M28.008 66H15.59l13.733-28.704 6.222 12.81zm2.212-31.447a1.005 1.005 0 0 0-.902-.564h-.003a1.001 1.001 0 0 0-.903.569L13.098 66.569A1 1 0 0 0 14.002 68h14.64c.388 0 .74-.223.906-.572l8.016-16.9a.995.995 0 0 0-.005-.863zM64.995 66H52.66L32.867 24.57a1.002 1.002 0 0 0-.905-.57H23.89l.009-10h15.82L59.42 55.429c.166.348.519.571.906.571h4.67zm1.003-12H60.96l-19.7-41.429a1.003 1.003 0 0 0-.907-.571H22.898c-.553 0-1.002.447-1.003.999l-.01 12A1 1 0 0 0 22.886 26h8.442l19.793 41.43c.167.348.517.57.904.57h13.972A1 1 0 0 0 67 67V55a1 1 0 0 0-1.002-1z" fill="#fff" /></g></svg>
+                            <svg height="36" width="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><linearGradient id="a" x1="0%" y1="100%" y2="0%"><stop offset="0" stopColor="#c8511b" /><stop offset="1" stopColor="#f90" /></linearGradient><g fill="none" fillRule="evenodd"><path d="M0 0h80v80H0z" fill="url(#a)" /><path d="M28.008 66H15.59l13.733-28.704 6.222 12.81zm2.212-31.447a1.005 1.005 0 0 0-.902-.564h-.003a1.001 1.001 0 0 0-.903.569L13.098 66.569A1 1 0 0 0 14.002 68h14.64c.388 0 .74-.223.906-.572l8.016-16.9a.995.995 0 0 0-.005-.863zM64.995 66H52.66L32.867 24.57a1.002 1.002 0 0 0-.905-.57H23.89l.009-10h15.82L59.42 55.429c.166.348.519.571.906.571h4.67zm1.003-12H60.96l-19.7-41.429a1.003 1.003 0 0 0-.907-.571H22.898c-.553 0-1.002.447-1.003.999l-.01 12A1 1 0 0 0 22.886 26h8.442l19.793 41.43c.167.348.517.57.904.57h13.972A1 1 0 0 0 67 67V55a1 1 0 0 0-1.002-1z" fill="#fff" /></g></svg>
                             <p className='pt-1 text-xs font-semi'>Lambda</p>
                         </Link>
                         <Link href="https://aws.amazon.com/pm/serv-s3/" className="flex flex-col justify-center items-center">
@@ -105,11 +105,11 @@ export default function Projects() {
             </Card>
 
             <Card
-                className="bg-white m-2 shadow-md"
+                className="bg-white m-2 shadow-md w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
-                <Image width={250} height={250} src='/book.png' alt='Book Icon' className='hidden md:block'
+                <Image width={250} height={250} src='/book.png' alt='Book Icon' className='mb-auto hidden md:block'
                 />
 
                 <CardBody className="flex flex-col p-4">
@@ -123,7 +123,6 @@ export default function Projects() {
                     </div>
                     {/* BODY */}
                     <Text className="mt-4">
-
                     </Text>
                     {/* FOOTER TypeScript, Next.Js PostGres, Tailwind CSS*/}
                     <div className="-mb-2 pt-8 mt-auto space-x-4 flex flex-row w-full justify-center sm:justify-end items-center">
@@ -137,11 +136,11 @@ export default function Projects() {
 
 
             <Card
-                className="bg-white m-2 shadow-md"
+                className="bg-white m-2 shadow-md w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
-                <Image width={250} height={250} src='/crop.png' alt='Crop Icon' className='p-8 hidden md:block'
+                <Image width={250} height={250} src='/crop.png' alt='Crop Icon' className='p-8 mb-auto hidden md:block'
                 />
 
                 <CardBody className="flex flex-col p-4">
@@ -154,12 +153,12 @@ export default function Projects() {
                     </div>
                     {/* BODY */}
                     <Text className="mt-4">
-                        Photo-notes is a script I developed to make it easier to add images to my MarkDown notes while in lecture. When a user takes a screenshot, the script generates a MarkDown insertion link that they can add to their notes.
+                        Photo-notes is a script I developed to make it easier to add images to my Markdown notes while in lecture. When a user takes a screenshot, the script generates a MarkDown insertion link that they can add to their notes.
                     </Text>
                     {/* FOOTER */}
                     <div className="-mb-2 pt-8 mt-auto space-x-4 flex flex-row w-full justify-center sm:justify-end items-center">
                         <Link href="https://www.python.org/" className="flex flex-col justify-center items-center">
-                            <svg height="36" width="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#5A9FD4" /><stop offset="1" stop-color="#306998" /></linearGradient><linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#FFD43B" /><stop offset="1" stop-color="#FFE873" /></linearGradient><path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)" /><path fill="url(#python-original-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)" /><radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#B8B8B8" stop-opacity=".498" /><stop offset="1" stop-color="#7F7F7F" stop-opacity="0" /></radialGradient><path opacity=".444" fill="url(#python-original-c)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z" /></svg>
+                            <svg height="36" width="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stopColor="#5A9FD4" /><stop offset="1" stopColor="#306998" /></linearGradient><linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stopColor="#FFD43B" /><stop offset="1" stopColor="#FFE873" /></linearGradient><path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)" /><path fill="url(#python-original-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)" /><radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#B8B8B8" stopOpacity=".498" /><stop offset="1" stopColor="#7F7F7F" stopOpacity="0" /></radialGradient><path opacity=".444" fill="url(#python-original-c)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z" /></svg>
                             <p className='pt-1 text-xs font-semi'>Python</p>
                         </Link>
 

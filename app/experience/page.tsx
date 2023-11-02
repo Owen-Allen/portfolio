@@ -7,8 +7,8 @@ import Image from "next/image"
 
 export default function Experience() {
   return (
-      <div className="w-full lg:w-3/4 flex flex-col justify-center space-y-8 p-x-8">
-        <Card className="bg-white rounded-lg p-2 m-2 shadow-md">
+      <div className="w-full flex flex-col justify-center items-center space-y-8 p-x-8 p-2">
+        <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-3/4">
           <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
               <div className="flex flex-row space-x-4">
                 <Image alt="bmo logo" className="w-10 h-10 rounded-full" src='/bmo.png' width={40} height={40} />
@@ -25,7 +25,7 @@ export default function Experience() {
         </Card>
 
 
-        <Card className="bg-white rounded-lg p-2 m-2 shadow-md">
+        <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-3/4">
           <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
               <div className="flex flex-row space-x-4">
                 <Image alt="ericsson logo" className="w-10 h-10" src='/ericsson.png' width={40} height={40} />
@@ -41,7 +41,7 @@ export default function Experience() {
           </CardBody>
         </Card>
 
-        <Card className="bg-white rounded-lg p-2 m-2 shadow-md">
+        <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-3/4">
           <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
               <div className="flex flex-row space-x-4">
                 <Image alt="Carleton Logo" className="w-10 h-10" src='/carleton.ico' width={40} height={40} />
