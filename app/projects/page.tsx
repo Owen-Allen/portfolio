@@ -77,7 +77,7 @@ export default function Projects() {
                         <Image className="h-10 w-10 md:hidden" alt="OpenCV logo" src='/opencv.png' width={40} height={40}></Image>
                         <h1 className="ml-4 md:ml-0 text-xl font-bold"> Image Stitcher </h1>
                         <Link className="ml-4 hover:underline" href="https://github.com/Owen-Allen/image-stitcher"> Github </Link>
-                        <Link className="ml-4 hover:underline" href="https://clucker.vercel.app/"          > Website </Link>
+                        {/* <Link className="ml-4 hover:underline" href="https://clucker.vercel.app/"          > Website </Link> */}
                     </div>
                     {/* BODY */}
                     <Text className="mt-4">
@@ -123,6 +123,8 @@ export default function Projects() {
                     </div>
                     {/* BODY */}
                     <Text className="mt-4">
+                    I created a bookstore app, where users can explore books, add items to cart and check out.
+
                     </Text>
                     {/* FOOTER TypeScript, Next.Js PostGres, Tailwind CSS*/}
                     <div className="-mb-2 pt-8 mt-auto space-x-4 flex flex-row w-full justify-center sm:justify-end items-center">
@@ -164,7 +166,7 @@ export default function Projects() {
                             <p className='pt-1 text-xs font-semi'>Python</p>
                         </Link>
 
-                        <Icon href="https://www.markdownguide.org/" className="devicon-markdown-original colored text-4xl" > <p className="text-xs">Markdown</p></Icon>
+                        <Icon href="https://www.markdownguide.org/" className="devicon-markdown-original colored text-4xl" > <p className="pt-1 text-xs">Markdown</p></Icon>
                     </div>
                 </CardBody>
             </Card>

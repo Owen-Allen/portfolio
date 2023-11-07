@@ -19,12 +19,12 @@ export default function About() {
             </p>
 
 
-            <Card className="bg-white  rounded-lg py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
+            <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12 ">
                     {/* <p className="w-full lg:w-1/2 text-xl indent-12"> */}
 
                     Recently, I completed my Honours in Computer Science with a Minor in Philosophy from Carleton University.
-                    It was there I developed my skills in web development, algorithm analysis and object oriented software engineering.
+                    It was there I developed my skills in web devinelopment, algorithm analysis and object oriented software engineering.
 
                     {/* </p> */}
                 </CardBody>
@@ -52,7 +52,7 @@ export default function About() {
                     <div className="w-28 py-2"><Icon href="https://tailwindcss.com/" className="devicon-tailwindcss-plain colored text-5xl" > <p className="pt-1 text-xl">Tailwind</p></Icon></div>
                     <div className="w-28 py-2"><Icon href="https://git-scm.com/" className="devicon-git-plain colored text-5xl" > <p className="pt-1 text-xl">Git</p></Icon></div>
                     <div className="w-28 py-2"><Icon href="https://nodejs.org/en" className="devicon-nodejs-plain colored text-5xl" > <p className="pt-1 text-xl">Node.JS</p></Icon></div>
-                    <div className="w-28 py-2"><Link href="https://www.python.org/" className="flex flex-col justify-center items-center">
+                    <div className="w-28 py-2"><Link href="https://aws.amazon.com/" className="flex flex-col justify-center items-center">
                         <Image className="pt-4" src="/aws.png" width={48} height={48} alt="aws logo" />
                         <p className='pt-2 text-xl font-semi'>AWS</p></Link></div>
                     {/* <div className="w-28 py-2"><Link href="https://www.python.org/" className="flex flex-col justify-center items-center"> */}
@@ -62,7 +62,7 @@ export default function About() {
                 </div>
             </div>
 
-            <Card className="bg-white  rounded-lg py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
+            <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12 ">
 
                     Ontop of my studies I took part in two co-op placements, working at the Bank of Montreal and Ericsson Canada.
@@ -74,53 +74,62 @@ export default function About() {
 
             <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
-                    <div className="flex flex-row space-x-4">
+                    <div className="flex flex-row items-center space-x-4">
                         <Image alt="bmo logo" className="w-10 h-10 rounded-full" src='/bmo.png' width={40} height={40} />
                         <a>
                             <h2 className="sm:text-xl font-semibold">Bank of Montreal</h2>
                             <h3 className="sm:text-xl">Software Developer</h3>
                         </a>
                     </div>
-                    <a className="pl-14 mt-0.5 sm:mt-0 sm:ml-auto">May 2022 - August 2022</a>
+                    <a className="pl-14 sm:text-base text-xs sm:ml-auto">May 2022 - August 2022</a>
                 </CardHeader>
-                <CardBody className="sm:text-xl sm:mx-12 ">
-
+                <CardBody className="sm:text-xl sm:mx-12 mb-10 -mx-2">
+As part of the Digital Core team at BMO, I played a key role in developing a Managed File Transfer (MFT) application. My primary focus was on front-end implementation and the REST API for the application, collaborating closely with engineers and stakeholders to understand requirements and organize feature implementation timelines. The project was built using TypeScript, NextJS, TailwindCSS and MongoDB.
                 </CardBody>
             </Card>
 
 
             <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
-                    <div className="flex flex-row space-x-4">
+                    <div className="flex flex-row items-center space-x-4">
                         <Image alt="ericsson logo" className="w-10 h-10" src='/ericsson.png' width={40} height={40} />
                         <a>
                             <h2 className="sm:text-xl font-semibold">Ericsson Canada</h2>
                             <h3 className="sm:text-xl">Automation Scripting Co-op</h3>
                         </a>
                     </div>
-                    <a className="pl-14 mt-0.5 sm:mt-0 sm:ml-auto">September 2020 - August 2021</a>
+                    <a className="pl-14 sm:text-base text-xs sm:ml-auto">September 2020 - August 2021</a>
                 </CardHeader>
-                <CardBody className="sm:text-xl sm:mx-12 ">
+                <CardBody className="sm:text-xl sm:mx-12 mb-10 -mx-2">
+                During my time at Ericsson, I effectively developed and implemented multiple automation solutions with a team using the Agile approach to software development, leading to streamlined processes and improved internal efficiency.
+
+                    <br/>
+                    <br/>
+
+                A standout achievement was spearheading a Confluence Knowledge sharing initiative, leading the development of several programs using Python and the Confluence REST API. These programs enabled the smooth migration of existing documentation to Confluence, while preserving content hierarchy and safeguarding sensitive information. My pivotal contribution played a significant role in successfully migrating a substantial volume of documentation from Wikispaces to Confluence, effectively consolidating and centralizing the company's knowledge base.
+
+
                 </CardBody>
             </Card>
 
             <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
-                    <div className="flex flex-row space-x-4">
+                    <div className="flex flex-row items-center space-x-4">
                         <Image alt="Carleton Logo" className="w-10 h-10" src='/carleton.ico' width={40} height={40} />
                         <a>
                             <h2 className="sm:text-xl font-semibold">Carleton University</h2>
                             <h3 className="sm:text-xl">Teaching Assistant</h3>
                         </a>
                     </div>
-                    <a className="pl-14 mt-0.5 sm:mt-0 sm:ml-auto">January 2020 - May 2020</a>
+                    <a className="pl-14 sm:text-base text-xs sm:ml-auto">January 2020 - May 2020</a>
                 </CardHeader>
-                <CardBody className="sm:text-xl sm:mx-12 ">
+                <CardBody className="sm:text-xl sm:mx-12 mb-10 -mx-2">
+                As a Teaching Assistant for the Introduction to Computer Science and Programming class, I provided valuable support to students in understanding algorithm design, procedural programming, and problem decomposition. 
                 </CardBody>
             </Card>
 
             <Card className="bg-white  rounded-lg py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
-                <CardBody className="sm:text-xl sm:mx-12 ">
+                <CardBody className="sm:text-xl sm:mx-12">
                     In my spare time, I like to write and play music with my friends :)
 
                 </CardBody>
