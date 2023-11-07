@@ -37,10 +37,10 @@ export default function Header() {
                         </div>
                         <h1 className="sm:w-[432px] lg:text-8xl text-6xl break-keep font-bold">I&apos;m Owen</h1>
                     </div>
-                    <p className='xl:w-2/3 lg:w-5/6 sm:w-full pb-4 sm:text-lg '>
+                    <p className='2xl:w-2/3 lg:w-5/6 sm:w-full pb-4 sm:text-lg '>
                         I&apos;m a <b>Software Developer</b>, experienced in Web Development, Python Scripting and Cloud Technologies. I&apos;m interested in building you a solution, and providing the infrastructure to host and maintain it.  {/*or and building the infrastruction to support it*/}
                     </p>
-                    <div className="w-full flex items-center lg:items-start">
+                    <div className="w-full flex justify-center items-center lg:justify-start lg:items-start">
                         <DottedButton className="w-64"/>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ export default function Header() {
             </div>
             
 
-            <ul className="-mb-8 -mx-6 space-x-8 sm:mx-0 flex flex-row justify-evenly text-2xl pt-48">
+            <ul className="-mb-8 -mx-6 space-x-8 sm:mx-0 flex flex-row justify-evenly text-2xl sm:pt-48 pt-40">
                 {links.map((link) => (
                     <li key={link.href}>
                         <Link className="relative" href={link.href}>
