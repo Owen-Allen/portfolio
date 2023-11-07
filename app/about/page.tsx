@@ -24,7 +24,7 @@ export default function About() {
                     {/* <p className="w-full lg:w-1/2 text-xl indent-12"> */}
 
                     Recently, I completed my Honours in Computer Science with a Minor in Philosophy from Carleton University.
-                    It was there I developed my skills in web devinelopment, algorithm analysis and object oriented software engineering.
+                    It was there I developed my skills in web development, algorithm analysis and object oriented software engineering.
 
                     {/* </p> */}
                 </CardBody>
