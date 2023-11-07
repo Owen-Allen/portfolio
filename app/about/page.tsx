@@ -106,7 +106,7 @@ As part of the Digital Core team at BMO, I played a key role in developing a Man
                     <br/>
                     <br/>
 
-                A standout achievement was spearheading a Confluence Knowledge sharing initiative, leading the development of several programs using Python and the Confluence REST API. These programs enabled the smooth migration of existing documentation to Confluence, while preserving content hierarchy and safeguarding sensitive information. My pivotal contribution played a significant role in successfully migrating a substantial volume of documentation from Wikispaces to Confluence, effectively consolidating and centralizing the company's knowledge base.
+                A standout achievement was spearheading a Confluence Knowledge sharing initiative, leading the development of several programs using Python and the Confluence REST API. These programs enabled the smooth migration of existing documentation to Confluence, while preserving content hierarchy and safeguarding sensitive information. My pivotal contribution played a significant role in successfully migrating a substantial volume of documentation from Wikispaces to Confluence, effectively consolidating and centralizing the company&apos;s knowledge base.
 
 
                 </CardBody>

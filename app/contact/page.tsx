@@ -11,7 +11,7 @@ export default function Contact() {
             <Card className="flex flex-col justify-center items-center bg-white rounded-lg py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12 ">
                     <p className="text-xl sm:text-3xl pb-2">Thanks for checking out my site! </p>
-                    <p className="sm:text-lg"> Here's a few ways you can reach me: </p> 
+                    <p className="sm:text-lg"> Here&apos;s a few ways you can reach me: </p> 
 
                     <div className="flex flex-row pt-8 -mr-4 justify-start space-x-2 sm:space-x-16">
                         <Link href="https://www.linkedin.com/in/owen-allen00/" className="flex flex-row items-center space-x-2"><i className="devicon-linkedin-plain colored text-4xl"></i> <p>Linkedin</p></Link>
