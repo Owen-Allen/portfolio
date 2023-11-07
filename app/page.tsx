@@ -1,7 +1,7 @@
-import Experience from './experience/page'
+import About from './about/page'
 
 export default function Home() {
     return (
-    <Experience/>
+    <About/>
   )
 }

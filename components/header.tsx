@@ -9,18 +9,16 @@ import Link from 'next/link'
 import DottedButton from '@/components/dottedButton'
 
 const links = [
-    { href: '/experience', label: "experience" },
+    { href: '/about', label: "about me" },
+    // { href: '/experience', label: "experience" },
     { href: '/projects', label: "projects" },
     { href: '/contact', label: "contact" },
 ]
 
-const uhh = () => {
-    console.log('uhh')
-}
 export default function Header() {
     const path = usePathname()
     return (
-        <div className="pt-24 p-8 sm:px-32 mb-4 ">
+        <div className="pt-24 p-8 sm:px-32 xl:mx-40 mb-4 ">
 
             {/* left side is "Hi ... (about)", right side is Image */}
             <div className="min-h-[444px]">
@@ -39,11 +37,11 @@ export default function Header() {
                         </div>
                         <h1 className="sm:w-[432px] lg:text-8xl text-6xl break-keep font-bold">I&apos;m Owen</h1>
                     </div>
-                    <p className='lg:w-2/3 pb-4 sm:text-lg '>
-                        I&apos;m a <b>Software Developer</b>, experienced in Web Development and Cloud computing. I&apos;m interested in building you a solution, and providing the infrastructure to host and maintain it.
+                    <p className='xl:w-2/3 lg:w-5/6 sm:w-full pb-4 sm:text-lg '>
+                        I&apos;m a <b>Software Developer</b>, experienced in Web Development, Python Scripting and Cloud Technologies. I&apos;m interested in building you a solution, and providing the infrastructure to host and maintain it.  {/*or and building the infrastruction to support it*/}
                     </p>
-                    <div className="w-full flex flex-col items-center lg:items-start">
-                        <DottedButton className="w-64" onClick={uhh}/>
+                    <div className="w-full flex items-center lg:items-start">
+                        <DottedButton className="w-64"/>
                     </div>
                 </div>
                 <div className="sm:block">
@@ -59,7 +57,7 @@ export default function Header() {
             </div>
             
 
-            <ul className="-mb-8 flex flex-row justify-evenly space-x-5 text-2xl pt-48">
+            <ul className="-mb-8 -mx-6 space-x-8 sm:mx-0 flex flex-row justify-evenly text-2xl pt-48">
                 {links.map((link) => (
                     <li key={link.href}>
                         <Link className="relative" href={link.href}>
@@ -70,7 +68,7 @@ export default function Header() {
                                 />
                             )}
                             {/* This logic is only for default page at "/" */}
-                            { path == "/" && link.href == "/experience" && (
+                            { path == "/" && link.href == "/about" && (
                                 <motion.span
                                     layoutId="underline"
                                     className="absolute top-full h-[1.5px] w-full bg-black"
@@ -90,3 +88,5 @@ export default function Header() {
 {/* <Link id="experience" href='/experience'>experience</Link>
                 <Link id="projects" href='/projects'>projects</Link>
                 <Link id="contact" href='/contact'>contact</Link> */}
+
+

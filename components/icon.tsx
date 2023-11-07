@@ -3,20 +3,21 @@ import React from 'react'
 import Link from 'next/link'
 
 type IconProps = {
-    href: string,
-    className: string,
-    text: string
-    children?: ReactNode;
+  href: string,
+  className: string,
+  text: string
+  children?: ReactNode;
 }
 
 import { ReactNode } from 'react';
 
-interface MyProps {
-}
-
-
-export default function Icon( props : IconProps) {
+// built on top of devicon
+export default function Icon({
+  children, className, href
+}: {
+  children: React.ReactNode, className: string, href: string
+}){
   return (
-    <Link href={props.href} className="flex flex-col justify-center items-center"><i className={props.className}></i><p className='pt-1 text-xs font-semi'>{props.text}</p></Link>
+    <Link href={href} className="flex flex-col justify-center items-center"><i className={className}></i>{children}</Link>
   )
 }
