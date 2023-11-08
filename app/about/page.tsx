@@ -11,13 +11,16 @@ import Icon from '@/components/icon'
 export default function About() {
     return (
         <div className="w-full flex flex-col justify-center items-center space-y-8 p-x-8 p-2">
-            <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
-                <CardBody className="sm:text-xl sm:mx-12 ">
-
+            {/* <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
+                <CardBody className="sm:text-xl sm:mx-12 "> */}
+            {/* <div className="w-2/3">
+                <p className="sm:py-8 p-2 m-2 w-full lg:w-1/2 mr-auto sm:text-xl sm:mx-12">
                     Recently, I completed my Honours in Computer Science with a Minor in Philosophy from Carleton University.
                     My time at Carleton University helped me discover the joy of building things on the web and diving into the complexities of software engineering and algorithms.                    {/* </p> */}
-                </CardBody>
-            </Card>
+            {/* </p> */}
+            {/* </div> */}
+            {/* </CardBody>
+            </Card> */}
 
             {/* JavaScript, TypeScript, React.js, Next.js, Node.js, Python, Django, Tailwind CSS, HTML5, CSS, SQL, NoSQL, Linux, Git */}
 
@@ -29,6 +32,25 @@ export default function About() {
             {/*                     <div className="w-28 py-2"><Icon href="https://en.wikipedia.org/wiki/CSS" className="devicon-css3-plain colored text-5xl" > <p className="pt-1 text-xl">CSS</p></Icon></div>
                     <div className="w-28 py-2"><Icon href="https://en.wikipedia.org/wiki/html" className="devicon-html5-plain colored text-5xl" > <p className="pt-1 text-xl">HTML</p></Icon></div>
  */}
+
+
+            <div className="lg:w-2/3">
+                <div className="flex p-4 md:flex-row flex-col  text-xl rounded-lg bg-white">
+                    <div className="p-4 w-full ">{/* Section 1 */}
+                        <p className="flex flex-col space-y-2 h-full justify-between sm:text-xl" >
+                            <span className="text-sm sm:text-xl block font-semibold w-full">A bit about me</span>
+                            <span className="text-sm sm:text-xl ">Recently, I completed my Honours in Computer Science with a Minor in Philosophy from Carleton University.</span>
+                            <span className="text-sm sm:text-xl ">Since then I&apos;ve been developing my full stack skills through developing web applications and learning more about how to host applications and microservices on AWS.</span>
+                        </p>
+                    </div>
+                    <div className="md:p-4 px-4 w-full "> {/* Section 2 */}
+                        <p className="h-full flex sm:text-xl">
+                        <span className="text-sm sm:text-xl md:m-auto">In addition to my studies, I gained practical experience through two co-op placements, one at the Bank of Montreal and the other at Ericsson Canada. I also contributed as a teaching assistant for the Introduction to Computer Science class.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
 
             <div className="py-12 sm:px-24 flex flex-col sm:flex-row items-center justify-center w-full lg:w-3/4"> {/*lg:w-3/4 looks good too*/}
                 <p className="text-3xl font-bold sm:pb-0 pb-4 sm:pr-24">Skills</p>
@@ -51,13 +73,14 @@ export default function About() {
                 </div>
             </div>
 
-            <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
+
+            {/* <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12 ">
 
                     In addition to my studies, I gained practical experience through two co-op placements, one at the Bank of Montreal and the other at Ericsson Canada. I also contributed as a teaching assistant for the Introduction to Computer Science class.
 
                 </CardBody>
-            </Card>
+            </Card> */}
 
 
             <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-2/3">

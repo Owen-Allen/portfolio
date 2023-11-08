@@ -1,4 +1,3 @@
-"use client"
 import React from 'react'
 
 import { Card, CardBody } from '@chakra-ui/card'
@@ -37,7 +36,20 @@ export default function Projects() {
                     {/* BODY */}
                     <Text className="mt-4">
                         Clucker is a text-based social media app where people can share short messages, called clucks, with the world. User&apos;s can create a custom profile, follow their friends, share their ideas and like other clucks.
+                        <br />
+                        <br />
                     </Text>
+                    <div>
+                        Key Project Components:
+                        <UnorderedList className="py-2 space-y-2">
+                            <ListItem>Responsive Design: The front-end layout adapts to various screen dimensions, prioritizing mobile devices.</ListItem>
+                            <ListItem>Django Backend: Backend powered by the Django Rest Framework, enabling smooth CRUD operations with an SQLite database.</ListItem>
+                            <ListItem>Security: Implemented NextAuth.js for secure authentication, including Google sign-in and JSON Web Token (JWT) handling</ListItem>
+                            <ListItem>Web Hosting: Hosting with Vercel & AWS: The application&apos;s frontend is hosted on Vercel, while AWS Elastic Beanstalk manages the backend.</ListItem>
+                        </UnorderedList>
+                    </div>
+
+
                     {/* FOOTER */}
                     <div className="-mb-4 pt-8 mt-auto space-x-4 flex flex-row w-full justify-center sm:justify-end items-center">
                         <Icon href="https://www.typescriptlang.org/" className="devicon-typescript-plain colored text-4xl" > <p className="text-xs">TypeScript</p></Icon>
