@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 
 import { Card, CardBody } from '@chakra-ui/card'
@@ -5,6 +6,13 @@ import { Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import {
+    List,
+    ListItem,
+    ListIcon,
+    OrderedList,
+    UnorderedList,
+  } from '@chakra-ui/react'
 
 import Icon from '@/components/icon'
 
@@ -123,9 +131,21 @@ export default function Projects() {
                     </div>
                     {/* BODY */}
                     <Text className="mt-4">
-                    I created a bookstore app, where users can explore books, add items to cart and check out.
-
+                        I created a bookstore app, where users can explore books, add items to cart and check out.
+                        <br />
+                        <br />
                     </Text>
+                    <div>
+                        Key Project Components:
+                        <UnorderedList className="py-2 space-y-2">
+                            <ListItem>Custom CartContext Hook: The application uses a custom CartContext hook in to preserve the cart state using LocalStorage in the user&apos;s browser. This allows users to easily add or remove items from their cart and for data persistence between page changes and page refreshes</ListItem>
+                            <ListItem>Server-Side Rendering (SSR): The implementation of SSR for individual book pages can improve the application&apos;s loading times, ensuring that users can navigate between pages swiftly, without experiencing unnecessary delays</ListItem>
+                            <ListItem>Client-Side Data Fetching: The browse page uses client-side data fetching, allowing the page to quickly update if the user applies a filter or is searching for a specific book</ListItem>
+                            <ListItem>Web Hosting via Vercel & Supabase: Using Vercel for web hosting and Supabase for database hosting, the application can run completely free</ListItem>
+                        </UnorderedList>
+                    </div>
+
+
                     {/* FOOTER TypeScript, Next.Js PostGres, Tailwind CSS*/}
                     <div className="-mb-2 pt-8 mt-auto space-x-4 flex flex-row w-full justify-center sm:justify-end items-center">
                         <Icon href="https://www.typescriptlang.org/" className="devicon-typescript-plain colored text-4xl" > <p className="text-xs">TypeScript</p></Icon>
@@ -146,8 +166,8 @@ export default function Projects() {
                 />
 
                 <CardBody
-                id="photonotes"
-                className="flex flex-col p-4">
+                    id="photonotes"
+                    className="flex flex-col p-4">
                     {/* TITLE */}
                     <div className="flex flex-row items-center">
                         {/* logo(small) Name, Github, Website */}
