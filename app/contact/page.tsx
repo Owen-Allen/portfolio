@@ -6,7 +6,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function Contact() {
     return (
-        <div className="w-full flex flex-col justify-center items-center space-y-8 p-x-8 p-2">
+        <div className="w-full min-screen flex flex-col justify-center items-center space-y-8 p-x-8 p-2">
 
             <Card className="flex flex-col justify-center items-center bg-white rounded-lg py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12 ">
@@ -29,6 +29,13 @@ export default function Contact() {
             <br />
             <br />
             <br />        
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />
