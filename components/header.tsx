@@ -30,7 +30,7 @@ export default function Header() {
 
     return (
         <div className="w-full flex flex-col justify-center items-center p-8 mb-4 pt-24">
-            <div className="w-full lg:w-3/4 2xl:px-8">
+            <div className="w-full lg:w-2/3">
                 {/* left side is "Hi ... (about)", right side is Image */}
                 <div className="min-h-[444px]">
                     <div className="flex flex-row justify-center w-full">
@@ -51,14 +51,19 @@ export default function Header() {
                             <p className='2xl:w-2/3 lg:w-[470px] sm:w-full pb-4 sm:text-lg'>
                                 I&apos;m a <b>Software Developer</b>, experienced in Web Development, Python Scripting, and Cloud Technologies. I&apos;m interested in building you a solution and providing the infrastructure to host and maintain it.  {/*or and building the infrastruction to support it*/}
                             </p>
-                            <div className="w-full flex justify-center items-center lg:justify-start lg:items-start">
+                            <div className="flex flex-col lg:flex-row lg:space-x-4 items-center space-y-1 lg:justify-start lg:items-start"> {/* lg:justify-start lg:items-start */}
                                 <DottedButton className="w-64" />
 
-                                <button className="flex flex-col items-center -space-y-6 px-2 text-lg" onClick={(e) => handleClick(e)}>
-                                    <svg height="2em" width="2em" stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
-                                        <polyline points="6 9 12 15 18 9"></polyline></svg>
-                                    <svg height="2em" width="2em" stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
-                                        <polyline points="6 9 12 15 18 9"></polyline></svg>
+                                <button className="hover:font-bold  text-black transition-all duration-150 flex flex-row items-center font-semi" onClick={(e) => handleClick(e)}>
+                                <span>Learn more</span>
+                                   
+                                    <div className="flex flex-col items-center -space-y-6 text-lg">
+                                        <svg height="2em" width="2em" stroke="currentColor" fill="none" strokeWidth="1" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                            <polyline points="6 9 12 15 18 9"></polyline></svg>
+                                        <svg height="2em" width="2em" stroke="currentColor" fill="none" strokeWidth="1" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                            <polyline points="6 9 12 15 18 9"></polyline></svg>                                
+                                    </div>
+
                                 </button>
                             </div>
                         </div>
@@ -79,7 +84,7 @@ export default function Header() {
                     {links.map((link) => (
                         <li key={link.href}>
                             <Link className="relative"
-                                onClick={(e) => { handleClick(e) }}
+                                // onClick={(e) => { handleClick(e) }} hmmmmmm I dont know if I like this feature
                                 href={link.href}
                             >
                                 {link.href === path && (
