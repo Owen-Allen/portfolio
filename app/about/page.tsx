@@ -11,22 +11,11 @@ import Icon from '@/components/icon'
 export default function About() {
     return (
         <div className="w-full flex flex-col justify-center items-center space-y-8 p-x-8 p-2">
-            <p className="text-xl w-full lg:w-3/4 indent-12 px-8 ">
-                {/* Recently, I graduated from Carleton University with an Honours in Computer Science and a Minor in Philosophy. <br /> <br/>
-                I took part in two coop placements, a 12 month placement Ericsson Canada, where I developed programs to automate workflows, and a 4 month placement at the Bank of Montreal, where I developed web applications with a small team. <br /> <br/>
-                I also worked as a Teaching Assistant for the Introduction to Computer Science class. */}
-
-            </p>
-
-
             <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12 ">
-                    {/* <p className="w-full lg:w-1/2 text-xl indent-12"> */}
 
                     Recently, I completed my Honours in Computer Science with a Minor in Philosophy from Carleton University.
-                    It was there I developed my skills in web development, algorithm analysis and object oriented software engineering.
-
-                    {/* </p> */}
+                    My time at Carleton University helped me discover the joy of building things on the web and diving into the complexities of software engineering and algorithms.                    {/* </p> */}
                 </CardBody>
             </Card>
 
@@ -65,8 +54,7 @@ export default function About() {
             <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12 ">
 
-                    Ontop of my studies I took part in two co-op placements, working at the Bank of Montreal and Ericsson Canada.
-                    I also worked as a teaching assistant for the Introduction to Computer Science class.
+                    In addition to my studies, I gained practical experience through two co-op placements, one at the Bank of Montreal and the other at Ericsson Canada. I also contributed as a teaching assistant for the Introduction to Computer Science class.
 
                 </CardBody>
             </Card>
@@ -84,7 +72,12 @@ export default function About() {
                     <a className="pl-14 sm:text-base text-xs sm:ml-auto">May 2022 - August 2022</a>
                 </CardHeader>
                 <CardBody className="sm:text-xl sm:mx-12 mb-10 -mx-2">
-As part of the Digital Core team at BMO, I played a key role in developing a Managed File Transfer (MFT) application. My primary focus was on front-end implementation and the REST API for the application, collaborating closely with engineers and stakeholders to understand requirements and organize feature implementation timelines. The project was built using TypeScript, NextJS, TailwindCSS and MongoDB.
+                    As part of the Digital Core team at BMO, I contributed to the development of a Managed File Transfer application (MFT), where I focused on the front-end implementation using TypeScript, NextJS, and Tailwind CSS.
+                    <br /><br />
+
+
+                    At BMO, I got to learn from a lot of great developers and get a better understanding of how software is developed within a large-scale organization. Through overcoming challenges like state management, API development, and understanding client-server architecture, I gained valuable insights into the practical tools of web development.
+
                 </CardBody>
             </Card>
 
@@ -101,13 +94,29 @@ As part of the Digital Core team at BMO, I played a key role in developing a Man
                     <a className="pl-14 sm:text-base text-xs sm:ml-auto">September 2020 - August 2021</a>
                 </CardHeader>
                 <CardBody className="sm:text-xl sm:mx-12 mb-10 -mx-2">
-                During my time at Ericsson, I effectively developed and implemented multiple automation solutions with a team using the Agile approach to software development, leading to streamlined processes and improved internal efficiency.
 
-                    <br/>
-                    <br/>
+                    During my time at Ericsson, I developed a variety of automation solutions to increase the efficiency of internal workflows. I collaborated with a team using the Agile approach to software development to delegate tasks and help each other implement solutions.
+                    <br /><br />
 
-                A standout achievement was spearheading a Confluence Knowledge sharing initiative, leading the development of several programs using Python and the Confluence REST API. These programs enabled the smooth migration of existing documentation to Confluence, while preserving content hierarchy and safeguarding sensitive information. My pivotal contribution played a significant role in successfully migrating a substantial volume of documentation from Wikispaces to Confluence, effectively consolidating and centralizing the company&apos;s knowledge base.
 
+                    Most of our solutions were very creative, since we were often addressing very niche issues within existing workflows and finding the best way to integrate our scripts with pre-existing technology.
+
+                    <br /><br />
+
+
+                    In many of the projects I undertook, the focus was on achieving full automation, which led me to delve into Azure Functions.
+                    This platform provided me with the capability to manage operations in the cloud while working in Python.
+
+
+
+
+
+
+
+
+
+                    <br />
+                    <br />
 
                 </CardBody>
             </Card>
@@ -124,8 +133,10 @@ As part of the Digital Core team at BMO, I played a key role in developing a Man
                     <a className="pl-14 sm:text-base text-xs sm:ml-auto">January 2020 - May 2020</a>
                 </CardHeader>
                 <CardBody className="sm:text-xl sm:mx-12 mb-10 -mx-2">
-                As a Teaching Assistant for the Introduction to Computer Science and Programming class, I provided valuable support to students in understanding algorithm design, procedural programming, and problem decomposition. 
-                </CardBody>
+                    As a Teaching Assistant for the Introduction to Computer Science class, I guided students through fundamental software development practices in Python. I hosted office hours for project assistance and assisted with tutorial sessions when students needed help.
+                    <br />
+                    <br />
+                    I gained a lot of experience in how to communicate programming problems with students, how to find common bugs, and how to decompose problems for easier understanding and troubleshooting.                </CardBody>
             </Card>
 
             <Card className="bg-white  rounded-lg py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
