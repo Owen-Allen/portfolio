@@ -35,7 +35,7 @@ export default function Projects() {
                     </div>
                     {/* BODY */}
                     <Text className="mt-4">
-                        Clucker is a text-based social media app where people can share short messages, called clucks, with the world. User&apos;s can create a custom profile, follow their friends, share their ideas and like other clucks.
+                        Clucker is a text-based social media app where people can share short messages, called clucks, with the world. Users can create a custom profile, follow their friends, share their ideas and like other clucks.
                         <br />
                         <br />
                     </Text>
