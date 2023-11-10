@@ -39,7 +39,7 @@ export default function Header() {
                                 <div className="flex flex-row">
                                     <h1 className="lg:text-8xl text-6xl font-bold block mt-auto lg:mt-32">Hi!</h1>
                                     <Image // MOBILE IMAGE
-                                        className="ml-auto mr-4 lg:hidden rounded-2xl"
+                                        className="ml-auto mr-4 lg:hidden rounded-2xl mt-24"
                                         src='/me.PNG'
                                         width={200}
                                         height={200}
@@ -80,11 +80,13 @@ export default function Header() {
                 </div>
 
 
-                <ul id="#top" className="-mb-8 pt-8 -mx-6 space-x-6 sm:mx-0 flex flex-row justify-evenly text-2xl sm:mt-48 mt-40">
+                {/* <ul id="#top" className="-mb-8 pt-4 -mx-6 space-x-6 sm:mx-0 flex flex-row justify-evenly text-2xl sm:mt-60 mt-32"> */}
+                <ul id="#top" className="-mb-8 pt-6 -mx-6 space-x-6 sm:mx-0 flex flex-row justify-evenly text-2xl sm:mt-48 mt-40">
+
                     {links.map((link) => (
                         <li key={link.href}>
                             <Link className="relative"
-                                // onClick={(e) => { handleClick(e) }} hmmmmmm I dont know if I like this feature
+                                onClick={(e) => { handleClick(e) }} // hmmmmmm I dont know if I like this feature
                                 href={link.href}
                             >
                                 {link.href === path && (

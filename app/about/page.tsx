@@ -11,41 +11,18 @@ import Icon from '@/components/icon'
 export default function About() {
     return (
         <div className="w-full flex flex-col justify-center items-center space-y-8 p-x-8 p-2">
-            {/* <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
-                <CardBody className="sm:text-xl sm:mx-12 "> */}
-            {/* <div className="w-2/3">
-                <p className="sm:py-8 p-2 m-2 w-full lg:w-1/2 mr-auto sm:text-xl sm:mx-12">
-                    Recently, I completed my Honours in Computer Science with a Minor in Philosophy from Carleton University.
-                    My time at Carleton University helped me discover the joy of building things on the web and diving into the complexities of software engineering and algorithms.                    {/* </p> */}
-            {/* </p> */}
-            {/* </div> */}
-            {/* </CardBody>
-            </Card> */}
-
-            {/* JavaScript, TypeScript, React.js, Next.js, Node.js, Python, Django, Tailwind CSS, HTML5, CSS, SQL, NoSQL, Linux, Git */}
-
-            {/* <div className="w-28 py-2"><Icon href="https://en.wikipedia.org/wiki/html" className="devicon-html5-plain colored text-5xl" > <p className="pt-1 text-xl">HTML</p></Icon></div> */}
-            {/*                     <div className="w-28 py-2"><Link href="https://www.python.org/" className="flex flex-col justify-center items-center">
-                        <Image className="pt-4" src="/aws.png" width={48} height={48} alt="aws logo" />
-                        <p className='pt-2 text-xl font-semi'>AWS</p></Link></div> */}
-
-            {/*                     <div className="w-28 py-2"><Icon href="https://en.wikipedia.org/wiki/CSS" className="devicon-css3-plain colored text-5xl" > <p className="pt-1 text-xl">CSS</p></Icon></div>
-                    <div className="w-28 py-2"><Icon href="https://en.wikipedia.org/wiki/html" className="devicon-html5-plain colored text-5xl" > <p className="pt-1 text-xl">HTML</p></Icon></div>
- */}
-
-
             <div className="lg:w-2/3">
                 <div className="flex p-4 md:flex-row flex-col  text-xl rounded-lg bg-white">
                     <div className="p-4 w-full ">{/* Section 1 */}
                         <p className="flex flex-col space-y-2 h-full justify-between sm:text-xl" >
-                            <span className="text-sm sm:text-xl block font-semibold w-full">A bit about me</span>
-                            <span className="text-sm sm:text-xl ">Recently, I completed my Honours in Computer Science with a Minor in Philosophy from Carleton University.</span>
-                            <span className="text-sm sm:text-xl ">Since then I&apos;ve been developing my full stack skills through developing web applications and learning more about how to host applications and microservices on AWS.</span>
+                            <span className="text-base sm:text-xl block font-semibold w-full">A bit about me</span>
+                            <span className="text-base sm:text-xl ">Recently, I completed my Honours in Computer Science with a Minor in Philosophy from Carleton University.</span>
+                            <span className="text-base sm:text-xl ">Post-graduation, I&apos;ve been honing my full stack skills through creating web applications and gaining proficiency in web hosting and microservice management on AWS.</span>
                         </p>
                     </div>
                     <div className="md:p-4 px-4 w-full "> {/* Section 2 */}
                         <p className="h-full flex sm:text-xl">
-                        <span className="text-sm sm:text-xl md:m-auto">In addition to my studies, I gained practical experience through two co-op placements, one at the Bank of Montreal and the other at Ericsson Canada. I also contributed as a teaching assistant for the Introduction to Computer Science class.</span>
+                        <span className="text-base sm:text-xl md:m-auto">In addition to my studies, I gained practical experience through two co-op placements, one at the Bank of Montreal and the other at Ericsson Canada. I also contributed as a teaching assistant for the Introduction to Computer Science class.</span>
                         </p>
                     </div>
                 </div>
@@ -72,16 +49,6 @@ export default function About() {
                     {/* <div className="w-28 py-2"><Icon href="https://git-scm.com/" className="devicon-linux-plain colored text-5xl" > <p className="pt-1 text-xl">Linux</p></Icon></div> */}
                 </div>
             </div>
-
-
-            {/* <Card className="bg-white rounded-lg sm:py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
-                <CardBody className="sm:text-xl sm:mx-12 ">
-
-                    In addition to my studies, I gained practical experience through two co-op placements, one at the Bank of Montreal and the other at Ericsson Canada. I also contributed as a teaching assistant for the Introduction to Computer Science class.
-
-                </CardBody>
-            </Card> */}
-
 
             <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
@@ -117,30 +84,13 @@ export default function About() {
                     <a className="pl-14 sm:text-base text-xs sm:ml-auto">September 2020 - August 2021</a>
                 </CardHeader>
                 <CardBody className="sm:text-xl sm:mx-12 mb-10 -mx-2">
-
-                    During my time at Ericsson, I developed a variety of automation solutions to increase the efficiency of internal workflows. I collaborated with a team using the Agile approach to software development to delegate tasks and help each other implement solutions.
+                    During my time at Ericsson, I developed a variety of custom automation solutions to increase the efficiency of internal workflows. I collaborated with a team using the Agile approach to software development to delegate tasks and help each other implement solutions.
                     <br /><br />
-
-
-                    Most of our solutions were very creative, since we were often addressing very niche issues within existing workflows and finding the best way to integrate our scripts with pre-existing technology.
-
+                    Most of our solutions were very creative, since we were often addressing very niche issues within existing workflows and finding the best way to integrate our scripts with existing technology.
                     <br /><br />
-
-
                     In many of the projects I undertook, the focus was on achieving full automation, which led me to delve into Azure Functions.
                     This platform provided me with the capability to manage operations in the cloud while working in Python.
-
-
-
-
-
-
-
-
-
-                    <br />
-                    <br />
-
+                    <br /><br />
                 </CardBody>
             </Card>
 
@@ -168,7 +118,6 @@ export default function About() {
 
                 </CardBody>
             </Card>
-
             <br />
             <br />
             <br />
