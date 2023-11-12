@@ -10,7 +10,7 @@ import Icon from '@/components/icon'
 
 export default function About() {
     return (
-        <div className="w-full flex flex-col justify-center items-center space-y-8 p-x-8 p-2">
+        <div className="w-full flex flex-col justify-center items-center space-y-8 px-2">
             <div className="lg:w-2/3">
                 <div className="flex p-4 md:flex-row flex-col  text-xl rounded-lg bg-white">
                     <div className="p-4 w-full ">{/* Section 1 */}

@@ -17,17 +17,17 @@ import Icon from '@/components/icon'
 
 export default function Projects() {
     return (
-        <div className="w-full flex flex-col justify-center items-center space-y-8 p-x-8 p-2">
+        <div className="w-full flex flex-col justify-center items-center space-y-8 px-2">
             <Card
-                className="bg-white m-2 shadow-md w-full lg:w-3/4"
+                className="bg-white shadow-md w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
-                <Image width={250} height={250} src='/clucker2.png' alt='Clucker Logo' className='p-8 mb-auto hidden md:block' />
+                <Image priority width={250} height={250} src='/clucker2.png' alt='Clucker Logo' className='p-8 mb-auto hidden md:block' />
                 <CardBody className="flex flex-col">
                     {/* TITLE */}
                     <div className="flex flex-row items-center">
-                        {/* logo(small) Name, Github, Website */}
+                        {/* logo(small) Name, Github, Website */} 
                         <Image className="h-10 w-10 md:hidden" alt="clucker logo" src='/clucker2.png' width={40} height={40}></Image>
                         <h1 className="ml-4 md:ml-0 text-xl font-bold"> Clucker </h1>
                         <Link className="ml-4 hover:underline" href="https://github.com/Owen-Allen/clucker"> Github </Link>
@@ -83,7 +83,7 @@ export default function Projects() {
             </Card>
 
             <Card
-                className="bg-white m-2 shadow-md w-full lg:w-3/4"
+                className="bg-white shadow-md w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
@@ -125,7 +125,7 @@ export default function Projects() {
             </Card>
 
             <Card
-                className="bg-white m-2 shadow-md w-full lg:w-3/4"
+                className="bg-white  shadow-md w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
@@ -170,7 +170,7 @@ export default function Projects() {
 
 
             <Card
-                className="bg-white m-2 shadow-md w-full lg:w-3/4"
+                className="bg-white  shadow-md w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >

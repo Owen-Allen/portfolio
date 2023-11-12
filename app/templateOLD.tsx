@@ -3,13 +3,13 @@ import { motion } from "framer-motion"
 import { usePathname } from "next/navigation"
 import { useEffect, useRef, useState } from "react"
 
-const usePrevious = (value: any) => {
-  const ref = useRef();
-  useEffect(() => {
-    ref.current = value;
-  });
-  return ref.current;
-};
+
+const links = [
+  { href: '/about', label: "about" },
+  // { href: '/experience', label: "experience" },
+  { href: '/projects', label: "projects" },
+  { href: '/contact', label: "contact" },
+]
 
 export default function Template({ children }: { children: React.ReactNode }) {
 
