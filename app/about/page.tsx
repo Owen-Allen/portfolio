@@ -11,7 +11,7 @@ import Icon from '@/components/icon'
 export default function About() {
     return (
         <div className="w-full flex flex-col justify-center items-center space-y-8 px-2">
-            <div className="lg:w-2/3">
+            <div className="lg:w-2/3 shadow-lg">
                 <div className="flex p-4 md:flex-row flex-col  text-xl rounded-lg bg-white">
                     <div className="p-4 w-full ">{/* Section 1 */}
                         <p className="flex flex-col space-y-2 h-full justify-between sm:text-xl" >
@@ -50,7 +50,7 @@ export default function About() {
                 </div>
             </div>
 
-            <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-2/3">
+            <Card className="bg-white rounded-lg p-2 m-2 shadow-lg w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
                     <div className="flex flex-row items-center space-x-4">
                         <Image alt="bmo logo" className="w-10 h-10 rounded-full" src='/bmo.png' width={40} height={40} />
@@ -72,7 +72,7 @@ export default function About() {
             </Card>
 
 
-            <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-2/3">
+            <Card className="bg-white rounded-lg p-2 m-2 shadow-lg w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
                     <div className="flex flex-row items-center space-x-4">
                         <Image alt="ericsson logo" className="w-10 h-10" src='/ericsson.png' width={40} height={40} />
@@ -94,7 +94,7 @@ export default function About() {
                 </CardBody>
             </Card>
 
-            <Card className="bg-white rounded-lg p-2 m-2 shadow-md w-full lg:w-2/3">
+            <Card className="bg-white rounded-lg p-2 m-2 shadow-lg w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
                     <div className="flex flex-row items-center space-x-4">
                         <Image alt="Carleton Logo" className="w-10 h-10" src='/carleton.ico' width={40} height={40} />
@@ -112,7 +112,7 @@ export default function About() {
                     I gained a lot of experience in how to communicate programming problems with students, how to find common bugs, and how to decompose problems for easier understanding and troubleshooting.                </CardBody>
             </Card>
 
-            <Card className="bg-white  rounded-lg py-8 p-2 m-2 shadow-md w-full lg:w-2/3">
+            <Card className="bg-white  rounded-lg py-8 p-2 m-2 shadow-lg w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12">
                     In my spare time, I like to write and play music with my friends :)
 

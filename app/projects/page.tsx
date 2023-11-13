@@ -19,7 +19,7 @@ export default function Projects() {
     return (
         <div className="w-full flex flex-col justify-center items-center space-y-8 px-2">
             <Card
-                className="bg-white shadow-md w-full lg:w-3/4"
+                className="bg-white shadow-lg w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
@@ -83,7 +83,7 @@ export default function Projects() {
             </Card>
 
             <Card
-                className="bg-white shadow-md w-full lg:w-3/4"
+                className="bg-white shadow-lg w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
@@ -125,7 +125,7 @@ export default function Projects() {
             </Card>
 
             <Card
-                className="bg-white  shadow-md w-full lg:w-3/4"
+                className="bg-white  shadow-lg w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >
@@ -170,7 +170,7 @@ export default function Projects() {
 
 
             <Card
-                className="bg-white  shadow-md w-full lg:w-3/4"
+                className="bg-white  shadow-lg w-full lg:w-3/4"
                 direction={{ xs: 'column', lg: 'row' }}
                 overflow='hidden'
             >

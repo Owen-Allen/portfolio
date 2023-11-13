@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function Contact() {
     return (
         <div className="w-full min-screen flex flex-col justify-center items-center space-y-8 px-2">
-            <Card className="flex flex-col justify-center items-center bg-white rounded-lg py-8 p-2 shadow-md w-full lg:w-2/3">
+            <Card className="flex flex-col justify-center items-center bg-white rounded-lg py-8 p-2 shadow-lg w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12 ">
                     <p className="text-xl sm:text-3xl pb-2">Thanks for checking out my site! </p>
                     <p className="sm:text-lg"> Here&apos;s a few ways you can reach me: </p> 
