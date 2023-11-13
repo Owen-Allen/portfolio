@@ -69,11 +69,11 @@ export default function Header() {
                                         ))}
                                     </motion.ul>
                                     <motion.div
-                                initial={{ y:-360 }}
+                                initial={{ y:-550 }}
                                 animate={{ rotate: 3, scale: 1, x:9, y:0 }}
                                 transition={{
                                     type: "spring",
-                                    stiffness: 220,
+                                    stiffness: 270,
                                     damping: 25,
                                     delay: 1.8
                                 }}
