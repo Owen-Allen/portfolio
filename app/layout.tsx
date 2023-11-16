@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { GeistSans, GeistMono } from 'geist/font'
 import { ChakraProvider } from '@chakra-ui/react'
@@ -18,6 +17,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+
+  // if the pathname is not projects, about or contact, we dont need the header
   return (
     <html lang="en">
       {/* <Head> */}  
@@ -27,7 +29,6 @@ export default function RootLayout({
       {/* </Head> */}
       <body className={`${GeistSans.className} bg-purple-100`}>
         <ChakraProvider>
-          <Header />
           {children}
           <Footer/>
         </ChakraProvider>
