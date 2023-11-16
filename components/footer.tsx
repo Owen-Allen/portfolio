@@ -5,12 +5,17 @@ export default function Footer() {
     return (
         <p className='text-sm text-slate-800 p-8 flex flex-row justify-center'>
             Built with
-            <Link href="https://nextjs.org/">
-            &nbsp;Next.JS 14&nbsp;
+            <Link className="hover:text-black" href="https://nextjs.org/">
+            &nbsp;Next.JS
             </Link>
+            ,
+            {/* &#10;&#13; */}
+            <span><Link className="hover:text-black" href="https://www.framer.com/motion/">
+            &nbsp;Framer Motion&nbsp;
+            </Link></span>
             and
-            <span><Link href="https://www.framer.com/motion/">
-            &nbsp;Framer Motion
+            <span><Link className="hover:text-black" href="https://chakra-ui.com/">
+            &nbsp;Chakra UI
             </Link></span>
         </p>
     )
