@@ -36,12 +36,12 @@ export default function Clucker() {
                     </h2>
                     <p className="py-4">
                         photo-notes is a tool that makes it easier to insert screenshots into your Markdown files. The script works by monitoring the user&apos;s
-                        screenshots directory for new files. When a new file is added, it moves it to the desired directory and creates a Markdown insertion link that can be
+                        screenshot directory for new files. When a new file is added, it moves it to the desired directory and creates a Markdown insertion link that can be
                         added to your notes.
                         <br />
                         <br />
                         During my lectures I would often take notes in Markdown and I wanted to include the diagrams my professors created directly in my notes.
-                        I found that trying to add the images myself during class was time-consuming and would cause me to fall behind, so I created a script to do it instead,
+                        I found that trying to add the images myself during class was time-consuming and would cause me to fall behind, so I created a script to do it instead.
                     </p>
 
 
@@ -49,9 +49,9 @@ export default function Clucker() {
                         Key Features
                     </h2>
                     <ul className="p-4 list-disc">
-                        <li>Python and asyncio: Python and asyncio allows the script to monitor the screenshots directory and wait for user input at the same time</li>
-                        <li>CLI Tooling: By adding the tool to your PATH, you can use it from any directory</li>
-                        <li>Bash Scripting: Using shutil, the script can safely perform OS commands to move the user&apos;s screenshot to the proper directory</li>
+                        <li><span className="font-semibold">Python and asyncio:</span> Python and asyncio allows the script to monitor the screenshots directory and wait for user input at the same time</li>
+                        <li><span className="font-semibold">CLI Tooling:</span> By adding the tool to your PATH, you can use it from any directory</li>
+                        <li><span className="font-semibold">Bash Scripting:</span> Using shutil, the script can safely perform OS commands to move the user&apos;s screenshot to the proper directory</li>
                     </ul>
 
 

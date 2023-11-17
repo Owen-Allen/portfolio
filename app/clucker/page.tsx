@@ -47,10 +47,10 @@ export default function Clucker() {
                         Key Features
                     </h2>
                     <ul className="p-4 list-disc">
-                        <li>Responsive Design: The front-end layout adapts to various screen dimensions, prioritizing mobile devices</li>
-                        <li>Security: Implemented NextAuth.js for secure authentication, using Google OAuth 2.0 and JSON Web Tokens (JWTs)</li>
-                        <li>Efficient Forms: Used zod for quick and easy form validation, while not being too intrusive to the user if they made a mistake </li>
-                        <li>Web Hosting: Hosting with Vercel & AWS: The application&apos;s frontend is hosted on Vercel, while AWS Elastic Beanstalk manages the backend, allowing for 100% uptime</li>
+                        <li><span className="font-semibold">Responsive Design:</span> The front-end layout adapts to various screen dimensions, prioritizing mobile devices</li>
+                        <li><span className="font-semibold">Security:</span> Implemented NextAuth.js for secure authentication, using Google OAuth 2.0 and JSON Web Tokens (JWTs)</li>
+                        <li><span className="font-semibold">Efficient </span>Forms: Used zod for quick and easy form validation, while not being too intrusive to the user if they made a mistake </li>
+                        <li><span className="font-semibold">Web Hosting:</span> Hosting with Vercel & AWS: The application&apos;s frontend is hosted on Vercel, while AWS Elastic Beanstalk manages the backend, allowing for 100% uptime</li>
                     </ul>
 
 

@@ -40,8 +40,7 @@ export default function Bookstore() {
                         Project Description
                     </h2>
                     <p className="py-4">
-                        This application is a online bookstore, consisting of a Hero Page, a Browse page, individual pages for each book as well as a checkout system.
-                    </p>
+                        An online bookstore application with a featuring a Hero Page, a Browse page, individual book pages, and an efficient checkout system.                    </p>
                     <h2 className="text-2xl">
                         Key Features
                     </h2>
