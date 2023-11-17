@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <p className='text-sm text-slate-800 p-8 flex flex-row justify-center'>
+        <p className='text-xs sm:text-sm text-slate-800 p-8 flex flex-row justify-center'>
             Built with
             <Link className="hover:text-black" href="https://nextjs.org/">
             &nbsp;Next.JS
