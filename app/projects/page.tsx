@@ -154,7 +154,7 @@ export default function Projects() {
                     boxShadow='lg'
                     overflow='overflowWrap'
                 >
-                    <CardBody id="photonotes" className="flex flex-col">
+                    <CardBody id="photo-notes" className="flex flex-col">
                         {/* TITLE */}
                         <Link href='/photo-notes' className='w-full'>
                             <div className="w-full flex justify-center rounded-lg">
@@ -168,7 +168,7 @@ export default function Projects() {
                         </div>
                         {/* BODY */}
                         <Text className="mt-4">
-                            photo-notes is a tool that makes it easier to add screenshots to your Markdown notes while in a lecture.
+                            photo-notes is a tool that makes it easier to add screenshots to your Markdown notes
                         </Text>
                         {/* FOOTER */}
 
@@ -200,11 +200,11 @@ export default function Projects() {
                         <div className="mt-6 flex flex-row items-center">
                             {/* logo(small) Name, Github, Website */}
                             <Link href='/restaurant-web-app' className="text-xl font-bold">Restaurant Web App</Link>
-                            <Link className="mt-1 ml-4 hover:underline" href="https://github.com/Owen-Allen/photo-notes">Github</Link>
+                            <Link className="mt-1 ml-4 hover:underline" href="https://github.com/Owen-Allen/restaurant-app">Github</Link>
                         </div>
                         {/* BODY */}
                         <Text className="mt-4">
-                            A restaurant app where users can create an account, order food and review previous orders.
+                            A restaurant app where users can create an account, order food and review their previous orders.
                         </Text>
                         {/* FOOTER */}
 
@@ -232,11 +232,6 @@ export default function Projects() {
 
 
             </SimpleGrid>
-
-
-
-
-
 
             <br />
             <br />
