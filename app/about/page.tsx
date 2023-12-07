@@ -6,10 +6,13 @@ import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 import Image from "next/image"
 import Link from 'next/link'
 import Icon from '@/components/icon'
+import Nav from '@/components/nav'
 
 
 export default function About() {
     return (
+        <> 
+        <Nav />
         <div className="w-full flex flex-col justify-center items-center space-y-8 px-2">
             <div className="lg:w-2/3 shadow-lg">
                 <div className="flex p-4 md:flex-row flex-col  text-xl rounded-lg bg-white">
@@ -41,7 +44,7 @@ export default function About() {
                     <div className="w-28 py-2"><Icon href="https://git-scm.com/" className="devicon-git-plain colored text-5xl" > <p className="pt-1 text-xl">Git</p></Icon></div>
                     <div className="w-28 py-2"><Icon href="https://nodejs.org/en" className="devicon-nodejs-plain colored text-5xl" > <p className="pt-1 text-xl">Node.JS</p></Icon></div>
                     <div className="w-28 py-2"><Link href="https://aws.amazon.com/" className="flex flex-col justify-center items-center">
-                        <Image className="pt-4" src="/aws.png" width={48} height={48} alt="aws logo" />
+                        <Image priority className="pt-4" src="/aws.png" width={48} height={48} alt="aws logo" />
                         <p className='pt-2 text-xl font-semi'>AWS</p></Link></div>
                     {/* <div className="w-28 py-2"><Link href="https://www.python.org/" className="flex flex-col justify-center items-center"> */}
                     {/* <Image className="pt-4" src="/aws.png" width={48} height={48} alt="aws logo" /> */}
@@ -122,6 +125,6 @@ export default function About() {
             <br />
             <br />
         </div >
-
+        </>
     )
 }

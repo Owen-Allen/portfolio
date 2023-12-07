@@ -61,7 +61,9 @@ export default function Header() {
                                         animate="visible"
                                     >
                                         {['H', 'i', '!'].map((index) => (
-                                            <motion.li key={index} className="item" variants={item} >
+                                            <motion.li
+                                            viewport={{ once: true }}
+                                            key={index} className="item" variants={item} >
                                                 <h1 className="lg:text-8xl text-6xl font-bold block">
                                                     {index}
                                                 </h1>

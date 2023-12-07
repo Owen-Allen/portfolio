@@ -16,15 +16,14 @@ export default function Nav() {
 
     const path = usePathname()
 
-    // CHECK IF WE ARE GETTING A TARGET
-    const handleClick = (event: any) => {
-        // event.preventDefault();
-        console.log(event)
-        const target = document.getElementById('#top')
-        if (target) {
-            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-    };
+    // const handleClick = (event: any) => {
+    //     // event.preventDefault();
+    //     console.log(event)
+    //     const target = document.getElementById('#top')
+    //     if (target) {
+    //         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    //     }
+    // };
 
     return (
         <nav>
@@ -32,7 +31,8 @@ export default function Nav() {
                 {links.map((link) => (
                     <li key={link.href}>
                         <Link className="relative"
-                            onClick={(e) => { handleClick(e) }} // hmmmmmm I dont know if I like this feature
+                            // onClick={(e) => { handleClick(e) }} // hmmmmmm I dont know if I like this feature
+                            // scroll={false}
                             href={link.href}
                         >
                             {link.href === path && (

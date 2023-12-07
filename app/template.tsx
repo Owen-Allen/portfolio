@@ -14,7 +14,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
 
     return (
         <div>
-            {routesWithNavAndHeader.includes(path) && <><Header /> <Nav /></>}
+            {routesWithNavAndHeader.includes(path) && <><Header /></>}
             {children}
         </div>
     )
