@@ -7,8 +7,8 @@ import { ChakraProvider } from '@chakra-ui/react'
 import Favicon from '/public/square-glasses.png';
 
 export const metadata: Metadata = {
-  title: "Owen's Portfolio",
-  description: 'Created using NextJS',
+  title: "Owen Allen - Software Developer",
+  description: 'Welcome to my development portfolio. Check out my projects, a bit about me, and how you can contact me.',
   icons: [{ rel: 'icon', url: Favicon.src }],
 }
 
