@@ -11,12 +11,6 @@ export default function EmailForm() {
     const [emailEmpty, setEmailEmpty] = useState(false)
     const [messageEmpty, setMessageEmpty] = useState(false)
 
-    // This is how its done in the docs, a bit odd eh
-    // https://chakra-ui.com/docs/components/form-control#error-message 
-    // const emailError = emailEmpty
-    // const messageError = emailEmpty
-
-
     const handleSubmit = async (e: any) => {
         e.preventDefault();
 
@@ -24,7 +18,6 @@ export default function EmailForm() {
         setMessageEmpty(e.target.message.value == "")
 
         if (e.target.email.value == "" || e.target.message.value == "") {
-            console.log('SHJOULD RETURN')
             return
         }
 
@@ -106,7 +99,7 @@ export default function EmailForm() {
                     placeholder='alice@email.com'
                 />
                 <FormErrorMessage>
-                    Don't forget your email!
+                    Don&apos;t forget your email!
                 </FormErrorMessage>
             </FormControl>
 
@@ -118,7 +111,7 @@ export default function EmailForm() {
                     size='md'
                 />
                 <FormErrorMessage>
-                    Don't forget the message!
+                    Don&apos;t forget the message!
                 </FormErrorMessage>
             </FormControl>
             <Center>
