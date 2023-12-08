@@ -171,7 +171,7 @@ export default function Projects() {
                         </div>
                         {/* BODY */}
                         <Text className="mt-4">
-                            photo-notes is a tool that makes it easier to add screenshots to your Markdown notes
+                            photo-notes is a tool that makes it easier to add screenshots to your Markdown notes.
                         </Text>
                         {/* FOOTER */}
 
@@ -204,6 +204,7 @@ export default function Projects() {
                             {/* logo(small) Name, Github, Website */}
                             <Link href='/restaurant-web-app' className="text-xl font-bold">Restaurant Web App</Link>
                             <Link className="mt-1 ml-4 hover:underline" href="https://github.com/Owen-Allen/restaurant-app">Github</Link>
+                            <Link className="mt-1 ml-4 hover:underline" href="https://restaurant-app-e9w4.onrender.com/"> Website </Link>
                         </div>
                         {/* BODY */}
                         <Text className="mt-4">
