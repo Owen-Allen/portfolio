@@ -53,7 +53,7 @@ export default function About() {
                 </div>
             </div>
 
-            <Card className="bg-white rounded-lg p-2 m-2 shadow-lg w-full lg:w-2/3">
+            <Card boxShadow='lg' className="bg-white rounded-lg p-2 m-2 shadow-lg w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
                     <div className="flex flex-row items-center space-x-4">
                         <Image alt="bmo logo" className="w-10 h-10 rounded-full" src='/bmo.png' width={40} height={40} />
@@ -75,7 +75,7 @@ export default function About() {
             </Card>
 
 
-            <Card className="bg-white rounded-lg p-2 m-2 shadow-lg w-full lg:w-2/3">
+            <Card boxShadow='lg' className="bg-white rounded-lg p-2 m-2 shadow-lg w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
                     <div className="flex flex-row items-center space-x-4">
                         <Image alt="ericsson logo" className="w-10 h-10" src='/ericsson.png' width={40} height={40} />
@@ -86,7 +86,7 @@ export default function About() {
                     </div>
                     <a className="pl-14 sm:text-base text-xs sm:ml-auto">September 2020 - August 2021</a>
                 </CardHeader>
-                <CardBody className="sm:text-xl sm:mx-12 mb-10 -mx-2">
+                <CardBody boxShadow='lg' className="sm:text-xl sm:mx-12 mb-10 -mx-2">
                     During my time at Ericsson, I developed a variety of custom automation solutions to increase the efficiency of internal workflows. I collaborated with a team using the Agile approach to software development to delegate tasks and help each other implement solutions.
                     <br /><br />
                     Most of our solutions were very creative, since we were often addressing very niche issues within existing workflows and finding the best way to integrate our scripts with existing technology.
@@ -97,7 +97,7 @@ export default function About() {
                 </CardBody>
             </Card>
 
-            <Card className="bg-white rounded-lg p-2 m-2 shadow-lg w-full lg:w-2/3">
+            <Card boxShadow='lg' className="bg-white rounded-lg p-2 m-2 shadow-lg w-full lg:w-2/3">
                 <CardHeader className="flex flex-col sm:flex-row w-full justify-around">
                     <div className="flex flex-row items-center space-x-4">
                         <Image alt="Carleton Logo" className="w-10 h-10" src='/carleton.ico' width={40} height={40} />
@@ -115,7 +115,7 @@ export default function About() {
                     I gained a lot of experience in how to communicate programming problems with students, how to find common bugs, and how to decompose problems for easier understanding and troubleshooting.                </CardBody>
             </Card>
 
-            <Card className="bg-white  rounded-lg py-8 p-2 m-2 shadow-lg w-full lg:w-2/3">
+            <Card boxShadow='lg' className="bg-white  rounded-lg py-8 p-2 m-2 shadow-lg w-full lg:w-2/3">
                 <CardBody className="sm:text-xl sm:mx-12">
                     In my spare time, I like to write and play music with my friends :)
 

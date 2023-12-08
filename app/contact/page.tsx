@@ -1,5 +1,4 @@
-import Icon from '@/components/icon'
-import { Card, CardBody, Text } from '@chakra-ui/react'
+import { Card, CardBody } from '@chakra-ui/react'
 import Link from 'next/link'
 import React from 'react'
 
@@ -12,7 +11,7 @@ export default function Contact() {
         <> 
         <Nav />
         <div className="w-full h-screen flex flex-col items-center space-y-8 px-2">
-            <Card className="mb-20 bg-white rounded-lg py-8 p-2 shadow-lg w-full lg:w-2/3">
+            <Card boxShadow='lg' className="mb-20 bg-white rounded-lg py-8 p-2 shadow-lg w-full lg:w-2/3">
                 <CardBody className="w-full flex flex-col items-center justify-center sm:text-xl text-center">
                 <h2 className="sm:hidden block text-lg">Here are a few ways you can reach me!</h2>
 
