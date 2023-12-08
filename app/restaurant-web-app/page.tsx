@@ -40,6 +40,7 @@ export default function Restaurant() {
                     <p className="py-4">
                         A restaurant ordering application built with Node.JS and Express. Users can create a profile, order from different restaurants and view their previous orders within their profile.
                     </p>
+                    <p className="mb-4">(the live website may take a moment to initially load due to free tier limitations)</p>
 
                     <p className="mb-4 text-gray-700 sm:hidden">(see demo images below)</p>
 
