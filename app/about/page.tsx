@@ -86,7 +86,7 @@ export default function About() {
                     </div>
                     <a className="pl-14 sm:text-base text-xs sm:ml-auto">September 2020 - August 2021</a>
                 </CardHeader>
-                <CardBody boxShadow='lg' className="sm:text-xl sm:mx-12 mb-10 -mx-2">
+                <CardBody className="sm:text-xl sm:mx-12 mb-10 -mx-2">
                     During my time at Ericsson, I developed a variety of custom automation solutions to increase the efficiency of internal workflows. I collaborated with a team using the Agile approach to software development to delegate tasks and help each other implement solutions.
                     <br /><br />
                     Most of our solutions were very creative, since we were often addressing very niche issues within existing workflows and finding the best way to integrate our scripts with existing technology.
