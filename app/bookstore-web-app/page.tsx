@@ -25,14 +25,14 @@ export default function Bookstore() {
 
                 {/* images */}
                 {/* <div className="flex flex-col w-full sm:w-1/3 h-screen bg-red-100"> */}
-                <SimpleGrid className="flex justify-center sm:mt-0 mt-4 sm:space-y-0 space-y-4 mx-4" columns={{ sm: 1, md: 2 }} spacing={2}>
+                <div className="flex flex-col space-y-2 sm:py-0 py-4 px-4 sm:px-8">
 
                     <Link href="/bookstore-web-app/home.jpg"><Image className="shadow-lg rounded-md" src="/bookstore-web-app/home.jpg" width={400} height={240} alt="Image of Bookstore home page" /></Link>
                     <Link href="/bookstore-web-app/browse.jpg"><Image className="shadow-lg rounded-md" src="/bookstore-web-app/browse.jpg" width={400} height={240} alt="Image of Bookstore browse page" /></Link>
                     <Link href="/bookstore-web-app/book.jpg"><Image className="shadow-lg rounded-md" src="/bookstore-web-app/book.jpg" width={400} height={240} alt="Image of Bookstore book page" /></Link>
                     <Link href="/bookstore-web-app/checkout.jpg"><Image className="shadow-lg rounded-md" src="/bookstore-web-app/checkout.jpg" width={400} height={240} alt="Image of Bookstore checkout page" /></Link>
 
-            </SimpleGrid>
+                    </div>
                 {/* </div> */}
 
                 <section className="w-full flex flex-col p-8 sm:w-2/3 bg-white rounded-lg shadow-lg">

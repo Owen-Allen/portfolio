@@ -27,7 +27,7 @@ export default function Nav() {
 
     return (
         <nav>
-            <ul id="#top" className="py-8 space-x-6 flex flex-row items-center justify-evenly text-2xl">
+            <ul id="nav" className="py-8 space-x-6 flex flex-row items-center justify-evenly text-2xl">
                 {links.map((link) => (
                     <li key={link.href}>
                         <Link className="relative"
