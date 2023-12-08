@@ -8,7 +8,7 @@ export default function Header() {
 
     const handleClick = (event: any) => {
         // event.preventDefault();
-        const target = document.getElementById('#top')
+        const target = document.getElementById('nav')
         if (target) {
             target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
