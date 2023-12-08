@@ -8,16 +8,16 @@ import React from 'react'
 
 export default function Bookstore() {
     return (
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className="px-2 w-full flex flex-col justify-center items-center">
 
             {/* desktop, row, images on left, description on right */}
             {/* mobile, col, description above, images below */}
 
-            <div className="flex w-full sm:w-10/12 flex-row items-center justify-start space-x-8 m-10">
+            <div className="flex w-full sm:w-10/12 flex-row items-center sm:space-x-8 sm:justify-normal justify-around m-10">
                 <BackButton />
-                <Link className="text-3xl font-bold" href="/bookstore-web-app"> Bookstore Web App </Link>
-                <Link className="text-2xl mt-auto" href="https://github.com/Owen-Allen/bookstore-webapp"> Github </Link>
-                <Link className="text-2xl mt-auto" href="https://bookstore-webapp.vercel.app/"> Website </Link>
+                <Link className="text-base sm:text-3xl font-bold" href="/bookstore-web-app"> Bookstore Web App</Link>
+                <Link className="text-base sm:text-2xl" href="https://github.com/Owen-Allen/bookstore-webapp"> Github </Link>
+                <Link className="text-base sm:text-2xl" href="https://bookstore-webapp.vercel.app/"> Website </Link>
 
             </div>
             <div className="relative flex flex-col-reverse sm:flex-row w-full sm:w-10/12">
@@ -25,14 +25,14 @@ export default function Bookstore() {
 
                 {/* images */}
                 {/* <div className="flex flex-col w-full sm:w-1/3 h-screen bg-red-100"> */}
-                <div className="flex flex-col space-y-2 px-8">
+                <SimpleGrid className="flex justify-center sm:mt-0 mt-4 sm:space-y-0 space-y-4 mx-4" columns={{ sm: 1, md: 2 }} spacing={2}>
 
                     <Link href="/bookstore-web-app/home.jpg"><Image className="shadow-lg rounded-md" src="/bookstore-web-app/home.jpg" width={400} height={240} alt="Image of Bookstore home page" /></Link>
                     <Link href="/bookstore-web-app/browse.jpg"><Image className="shadow-lg rounded-md" src="/bookstore-web-app/browse.jpg" width={400} height={240} alt="Image of Bookstore browse page" /></Link>
                     <Link href="/bookstore-web-app/book.jpg"><Image className="shadow-lg rounded-md" src="/bookstore-web-app/book.jpg" width={400} height={240} alt="Image of Bookstore book page" /></Link>
                     <Link href="/bookstore-web-app/checkout.jpg"><Image className="shadow-lg rounded-md" src="/bookstore-web-app/checkout.jpg" width={400} height={240} alt="Image of Bookstore checkout page" /></Link>
 
-                </div>
+            </SimpleGrid>
                 {/* </div> */}
 
                 <section className="w-full flex flex-col p-8 sm:w-2/3 bg-white rounded-lg shadow-lg">
@@ -40,7 +40,11 @@ export default function Bookstore() {
                         Project Description
                     </h2>
                     <p className="py-4">
-                        An online bookstore application with a featuring a Hero Page, a Browse page, individual book pages, and an efficient checkout system.                    </p>
+                        An online bookstore application with a featuring a Hero Page, a Browse page, individual book pages, and an efficient checkout system.                    
+                    </p>
+                    
+                    <p className="mb-4 text-gray-700 sm:hidden">(see demo images below)</p>
+
                     <h2 className="text-2xl">
                         Key Features
                     </h2>

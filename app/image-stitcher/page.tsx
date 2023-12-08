@@ -37,7 +37,7 @@ export default function Clucker() {
 
                 <section className="w-full flex flex-col p-8 sm:w-2/3 bg-white rounded-lg shadow-lg">
                     <h2 className="text-2xl">
-                        Project Descrition
+                        Project Description
                     </h2>
                     <p className="py-4">
                     Clucker is a text-based social media app where people can share short messages, called clucks, with their friends. 

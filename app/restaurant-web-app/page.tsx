@@ -8,24 +8,23 @@ import React from 'react'
 
 export default function Restaurant() {
     return (
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className="px-2 w-full flex flex-col justify-center items-center">
 
             {/* desktop, row, images on left, description on right */}
             {/* mobile, col, description above, images below */}
 
-            <div className="flex w-full sm:w-10/12 flex-row items-center justify-start space-x-8 m-10">
+            <div className="flex w-full sm:w-10/12 flex-row items-center sm:items-end sm:space-x-8 sm:justify-normal justify-around m-10">
                 <BackButton />
-                <Link className="text-3xl font-bold" href="/restaurant-app"> Restaurant Web App </Link>
-                <Link className="text-2xl mt-auto" href="https://github.com/Owen-Allen/restaurant-app"> Github </Link>
-                <Link className="text-2xl mt-auto" href="https://restaurant-app-e9w4.onrender.com/"> Website </Link>
-
+                <Link className="text-base sm:text-3xl font-bold" href="/restaurant-app"> Restaurant Web App </Link>
+                <Link className="text-base sm:text-2xl" href="https://github.com/Owen-Allen/restaurant-app"> Github </Link>
+                <Link className="text-base sm:text-2xl" href="https://restaurant-app-e9w4.onrender.com/"> Website </Link>
             </div>
             <div className="relative flex flex-col-reverse sm:flex-row w-full sm:w-10/12">
 
 
                 {/* images */}
                 {/* <div className="flex flex-col w-full sm:w-1/3 h-screen bg-red-100"> */}
-                <div className="flex flex-col space-y-2 px-8">
+                <div className="flex flex-col space-y-2 sm:py-0 py-4 px-4 sm:px-8">
 
                     <Link href="/restaurant-web-app/order_page.jpg"><Image className="shadow-lg rounded-md" src="/restaurant-web-app/order_page.jpg" width={400} height={240} alt="Image of order" /></Link>
                     <Link href="/restaurant-web-app/user.jpg"><Image className="shadow-lg rounded-md" src="/restaurant-web-app/user.jpg" width={400} height={240} alt="Image of user table" /></Link>
@@ -40,8 +39,10 @@ export default function Restaurant() {
                     </h2>
                     <p className="py-4">
                         A restaurant ordering application built with Node.JS and Express. Users can create a profile, order from different restaurants and view their previous orders within their profile.
-
                     </p>
+
+                    <p className="mb-4 text-gray-700 sm:hidden">(see demo images below)</p>
+
                     <h2 className="text-2xl">
                         Key Features
                     </h2>

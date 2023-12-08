@@ -8,24 +8,21 @@ import React from 'react'
 
 export default function Clucker() {
     return (
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className="px-2 w-full flex flex-col justify-center items-center">
 
             {/* desktop, row, images on left, description on right */}
             {/* mobile, col, description above, images below */}
 
-            <div className="flex w-full sm:w-10/12 flex-row items-center justify-start space-x-8 m-10">
+            <div className="flex w-full sm:w-10/12 flex-row items-end sm:space-x-8 sm:justify-normal justify-around m-10">
                 <BackButton />
-                <Link className=" text-3xl font-bold" href="/clucker"> Clucker</Link>
-                <Link className=" text-2xl mt-auto" href="https://github.com/Owen-Allen/clucker"> Github </Link>
-                <Link className=" text-2xl mt-auto" href="https://clucker.vercel.app/"          > Website </Link>
-
+                <Link className="text-2xl sm:text-3xl font-bold" href="/clucker"> Clucker</Link>
+                <Link className="text-lg sm:text-2xl" href="https://github.com/Owen-Allen/clucker"> Github </Link>
+                <Link className="text-lg sm:text-2xl" href="https://clucker.vercel.app/"          > Website </Link>
             </div>
+
             <div className="relative flex flex-col-reverse sm:flex-row w-full sm:w-10/12">
-
-
                 {/* images */}
-                {/* <div className="flex flex-col w-full sm:w-1/3 h-screen bg-red-100"> */}
-                <SimpleGrid className="px-4" columns={{ sm: 1, md: 2 }} spacing={2}>
+                <SimpleGrid className="flex justify-center sm:mt-0 mt-4 sm:space-y-0 space-y-4 mx-4" columns={{ sm: 1, md: 2 }} spacing={2}>
 
                     <Link href="/clucker/login.jpg"><Image className="shadow-lg rounded-md" src="/clucker/login.jpg" width={200} height={240} alt="Clucker login" /></Link>
                     <Link href="/clucker/feed.jpg"><Image className="shadow-lg rounded-md" src="/clucker/feed.jpg" width={200} height={240} alt="Clucker feed" /></Link>
@@ -33,24 +30,24 @@ export default function Clucker() {
                     <Link href="/clucker/profile.jpg"><Image className="shadow-lg rounded-md" src="/clucker/profile.jpg" width={200} height={240} alt="Clucker profile" /></Link>
 
                 </SimpleGrid>
-                {/* </div> */}
 
                 <section className="w-full flex flex-col p-8 sm:w-2/3 bg-white rounded-lg shadow-lg">
                     <h2 className="text-2xl">
-                        Project Descrition
+                        Project Description
                     </h2>
                     <p className="py-4">
                     Clucker is a text-based social media app where people can share short messages, called clucks, with their friends. 
                     Users can create a custom profile, follow their friends and like other clucks.
                     </p>
+                    <p className="mb-4 text-gray-700 sm:hidden">(see demo images below)</p>
                     <h2 className="text-2xl">
                         Key Features
                     </h2>
                     <ul className="p-4 list-disc">
                         <li><span className="font-semibold">Responsive Design:</span> The front-end layout adapts to various screen dimensions, prioritizing mobile devices</li>
                         <li><span className="font-semibold">Security:</span> Implemented NextAuth.js for secure authentication, using Google OAuth 2.0 and JSON Web Tokens (JWTs)</li>
-                        <li><span className="font-semibold">Efficient </span>Forms: Used zod for quick and easy form validation, while not being too intrusive to the user if they made a mistake </li>
-                        <li><span className="font-semibold">Web Hosting:</span> Hosting with Vercel & AWS: The application&apos;s frontend is hosted on Vercel, while AWS Elastic Beanstalk manages the backend, allowing for 100% uptime</li>
+                        <li><span className="font-semibold">Efficient Forms:</span> Used zod for quick and easy form validation, while not being too intrusive to the user if they made a mistake </li>
+                        <li><span className="font-semibold">Hosting with Vercel & AWS:</span> The frontend is hosted on Vercel, while AWS Elastic Beanstalk manages the backend, allowing for 100% uptime</li>
                     </ul>
 
 

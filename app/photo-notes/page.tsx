@@ -6,21 +6,21 @@ import React from 'react'
 
 export default function Clucker() {
     return (
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className="px-2 w-full flex flex-col justify-center items-center">
 
             {/* desktop, row, images on left, description on right */}
             {/* mobile, col, description above, images below */}
 
-            <div className="flex w-full sm:w-10/12 flex-row items-center justify-start space-x-8 m-10">
+            <div className="flex w-full sm:w-10/12 flex-row items-end space-x-8 sm:justify-normal m-10">
                 <BackButton />
-                <Link className=" text-3xl font-bold" href="/photo-notes"> photo-notes </Link>
-                <Link className=" text-2xl mt-auto" href="https://github.com/Owen-Allen/photo-notes"> Github </Link>
+                <Link className="text-2xl sm:text-3xl font-bold" href="/photo-notes"> photo-notes </Link>
+                <Link className="text-lg sm:text-2xl" href="https://github.com/Owen-Allen/photo-notes"> Github </Link>
             </div>
             <div className="relative flex flex-col-reverse sm:flex-row w-full sm:w-10/12">
 
 
                 {/* images */}
-                <div className="flex flex-col py-auto px-4">
+                <div className="flex flex-col py-auto sm:py-0 py-4 px-4">
                     <video
                         width="960"
                         height="540"
@@ -32,7 +32,7 @@ export default function Clucker() {
 
                 <section className="w-full flex flex-col p-8 sm:w-2/3 bg-white rounded-lg shadow-lg">
                     <h2 className="text-2xl">
-                        Project Descrition
+                        Project Description
                     </h2>
                     <p className="py-4">
                         photo-notes is a tool that makes it easier to insert screenshots into your Markdown files. The script works by monitoring the user&apos;s
@@ -40,10 +40,11 @@ export default function Clucker() {
                         added to your notes.
                         <br />
                         <br />
-                        During my lectures I would often take notes in Markdown and I wanted to include the diagrams my professors created directly in my notes.
+                        During my lectures I often wanted to include the diagrams my professors created directly in my notes.
                         I found that trying to add the images myself during class was time-consuming and would cause me to fall behind, so I created a script to do it instead.
                     </p>
 
+                    <p className="mb-4 text-gray-700 sm:hidden">(see demo video below)</p>
 
                     <h2 className="text-2xl">
                         Key Features
