@@ -9,7 +9,6 @@ import Nav from '@/components/nav'
 export default function Contact() {
     return (
         <> 
-        <Nav />
         <div className="w-full h-screen flex flex-col items-center space-y-8 px-2">
             <Card boxShadow='lg' className="mb-20 bg-white rounded-lg py-8 p-2 shadow-lg w-full lg:w-2/3">
                 <CardBody className="w-full flex flex-col items-center justify-center sm:text-xl text-center">

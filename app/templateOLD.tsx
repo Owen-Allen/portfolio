@@ -12,7 +12,6 @@ const links = [
 ]
 
 export default function Template({ children }: { children: React.ReactNode }) {
-
   
   const path = usePathname()
   const variants = {

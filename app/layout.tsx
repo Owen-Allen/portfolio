@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 import Footer from '@/components/footer'
-import { GeistSans, GeistMono } from 'geist/font'
+import { GeistSans } from 'geist/font'
 import { ChakraProvider } from '@chakra-ui/react'
 import Favicon from '/public/square-glasses.png';
 

@@ -21,7 +21,6 @@ import Nav from '@/components/nav'
 export default function Projects() {
     return (
         <> 
-        <Nav />
         <div className="flex flex-col justify-center items-center space-y-8 w-full px-2">
 
             <SimpleGrid className="xl:w-2/3 lg:w-3/4 w-full " columns={{ sm: 1, md: 2 }} spacing={8}>
