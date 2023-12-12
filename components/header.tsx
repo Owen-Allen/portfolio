@@ -46,7 +46,7 @@ export default function Header() {
     }
 
     return (
-        <div className="w-full mx-2 mt-8 p-8 h-screen flex flex-col justify-center items-center">
+        <div className="w-full mt-8 p-8 h-screen flex flex-col justify-center items-center">
             <div className="-mt-24 w-full lg:w-3/4 2xl:w-2/3"> {/* -mt-12 just to bring it up a little bit*/}
                 {/* left side is "Hi ... (about)", right side is Image */}
                 <div className="min-h-[500px] ">
