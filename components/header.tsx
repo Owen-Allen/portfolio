@@ -106,7 +106,7 @@ export default function Header() {
                                 </motion.ul>
                             </div>
                             <p className='2xl:w-2/3 lg:w-[470px] sm:w-full pb-4 sm:text-lg'>
-                                I&apos;m a <b>Software Developer</b>, experienced in Web Development, Python Scripting, and Cloud Technologies. I&apos;m interested in building you a solution and providing the infrastructure to host and maintain it.  {/*or and building the infrastruction to support it*/}
+                                I&apos;m a <b>Software Developer</b>, experienced in Web Development, Automation Scripting and Cloud Technologies. {/*or and building the infrastruction to support it...  I&apos;m interested in building you a solution and providing the infrastructure to host and maintain it.*/}
                             </p>
                             <div className="flex flex-col lg:flex-row lg:space-x-4 items-center space-y-1 lg:justify-start lg:items-start"> {/* lg:justify-start lg:items-start */}
                                 <DottedButton className="" />
